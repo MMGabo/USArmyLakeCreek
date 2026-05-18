@@ -1,0 +1,54 @@
+/* Navigation */
+
+header {
+    padding: 0;
+} 
+
+#bake__station {
+    background-image: url(../img/background2.png);
+    background-size: cover;
+    background-attachment: inherit;
+    text-shadow: 2px 2px 4px black;
+    padding: 2em 1em;
+}
+
+#nav__left,#nav__right {
+    display: flex;
+    list-style: none;
+    flex: 0 1 50%;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+#nav__left a {
+    width: 90px;
+    display: inline-table;
+    padding: 0.1em;
+    color: black;
+    text-decoration: none;
+  }
+
+#nav__right a {
+    width: 90px;
+    display: inline-table;
+    padding: 0.1em;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+#nav__top {
+    padding: 0;
+    margin: 0;
+}
+  
+#nav__top a:hover,
+#nav__top a:focus {
+    text-decoration: underline
+  }
+#tab a {
+    color: black;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 0px 0px 12px black;
+    background-color: gold;
+}
+
